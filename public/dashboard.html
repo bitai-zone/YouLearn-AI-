@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>YouLearn AI — نمونه داشبورد</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dashboard.css">
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="logo">▶</div>
+          <div class="brand-name">YouLearn AI</div>
+        </div>
+
+        <nav class="nav">
+          <a class="nav-item active">خانه</a>
+          <a class="nav-item">Shorts</a>
+          <a class="nav-item">Live</a>
+          <a class="nav-item">Courses</a>
+          <a class="nav-item">Channels</a>
+          <a class="nav-item">Playlists</a>
+          <a class="nav-item">Projects</a>
+          <a class="nav-item">Quizzes</a>
+          <a class="nav-item">Community</a>
+          <a class="nav-item">AI Tutor</a>
+          <a class="nav-item">Notes</a>
+        </nav>
+
+        <div class="upgrade">Upgrade to Pro</div>
+      </aside>
+
+      <div class="main-area">
+        <header class="topbar">
+          <div class="search">
+            <input placeholder="Search for anything..." />
+          </div>
+          <div class="top-actions">
+            <div class="fire">🔥 12</div>
+            <div class="icon">🔔</div>
+            <div class="avatar">A</div>
+          </div>
+        </header>
+
+        <section class="channel-banner">
+          <div class="channel-left">
+            <div class="avatar-large">Y</div>
+            <div class="channel-meta">
+              <h1>YouLearn AI</h1>
+              <p class="sub">@YouLearnAI · 1.25M subscribers · 1.2K videos</p>
+              <p class="desc">The world's most advanced AI-powered learning platform.</p>
+            </div>
+            <button class="subscribe">Subscribe</button>
+          </div>
+
+          <div class="banner-visual">
+            <!-- simple brain illustration -->
+            <svg viewBox="0 0 600 150" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <linearGradient id="g" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#7c3aed" />
+                  <stop offset="100%" stop-color="#06b6d4" />
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="100%" height="100%" fill="none" />
+              <g fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M120 90c30-40 80-40 120-20s80 10 110-20" opacity="0.9" />
+                <circle cx="460" cy="40" r="28" opacity="0.9" />
+              </g>
+            </svg>
+          </div>
+        </section>
+
+        <div class="tabs">
+          <div class="tab active">Home</div>
+          <div class="tab">Videos</div>
+          <div class="tab">Shorts</div>
+          <div class="tab">Live</div>
+          <div class="tab">Playlists</div>
+        </div>
+
+        <main class="content">
+          <section class="col left">
+            <h2 class="section-title"><span class="icon-block">📚</span> Learn</h2>
+            <p class="muted">Discover the best content to learn anything</p>
+
+            <div class="filters">
+              <button class="chip active">For You</button>
+              <button class="chip">Courses</button>
+              <button class="chip">Playlists</button>
+              <button class="chip">Top Videos</button>
+            </div>
+
+            <article class="feature-card">
+              <div class="thumb">
+                <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='640' height='360'><rect width='100%' height='100%' fill='%23101a2b'/><text x='50%' y='50%' fill='%2389f' font-size='30' font-family='Arial' text-anchor='middle'>Machine Learning Full Course</text></svg>" alt="thumb">
+                <span class="duration">4:35:20</span>
+              </div>
+              <div class="meta">
+                <h3>Machine Learning Full Course for Beginners</h3>
+                <p class="muted">YouLearn AI · 2.4M views · 2 months ago</p>
+              </div>
+            </article>
+
+            <div class="cards-row">
+              <div class="course small">
+                <div class="c-thumb"></div>
+                <div class="c-title">Python Full Course<br/><span class="muted small">Beginner to Advanced</span></div>
+                <div class="c-duration">6:02:15</div>
+              </div>
+              <div class="course small">
+                <div class="c-thumb"></div>
+                <div class="c-title">Data Structures and Algorithms<br/><span class="muted small">in Python</span></div>
+                <div class="c-duration">3:28:47</div>
+              </div>
+              <div class="course small">
+                <div class="c-thumb"></div>
+                <div class="c-title">Web Development Full Course 2024</div>
+                <div class="c-duration">5:15:30</div>
+              </div>
+            </div>
+
+          </section>
+
+          <section class="col middle">
+            <h2 class="section-title"><span class="icon-block green">🧠</span> Think</h2>
+            <p class="muted">Use AI tools to think deeper and learn better</p>
+
+            <div class="ai-card">
+              <div class="ai-top">
+                <div class="ai-avatar">🤖</div>
+                <div>
+                  <div class="ai-hello">Hi Aria! I'm your AI tutor.</div>
+                  <div class="muted small">How can I help you learn today?</div>
+                </div>
+              </div>
+
+              <ul class="suggests">
+                <li>Explain Quantum Computing in simple terms</li>
+                <li>Summarize this video in key points</li>
+                <li>Create a quiz about Photosynthesis</li>
+                <li>Help me with this Python code</li>
+              </ul>
+
+              <div class="ai-input">
+                <input placeholder="Ask anything..." />
+                <button class="send">➤</button>
+              </div>
+
+              <div class="shortcuts">
+                <button>Notes</button>
+                <button>Mind Map</button>
+                <button>AI Voice</button>
+                <button>Code Lab</button>
+                <button>Calculator</button>
+              </div>
+            </div>
+
+          </section>
+
+          <section class="col right">
+            <h2 class="section-title"><span class="icon-block orange">👷</span> Build</h2>
+            <p class="muted">Build skills, projects, and connect with others</p>
+
+            <div class="project-card">
+              <div class="project-meta">
+                <h3>Build a Real-time Chat App with WebSockets</h3>
+                <p class="muted">1.2K learners · Intermediate</p>
+              </div>
+              <div class="project-thumb"></div>
+            </div>
+
+            <div class="groups">
+              <div class="group">AI & Deep Learning<br/><span class="muted small">12.5K members</span></div>
+              <div class="group">System Design<br/><span class="muted small">8.7K members</span></div>
+              <div class="group">Python Developers<br/><span class="muted small">24.3K members</span></div>
+            </div>
+
+            <div class="contributors">
+              <div class="contrib"><div class="pic">A</div><div class="name">Aria<div class="xp">125,430 XP</div></div></div>
+              <div class="contrib"><div class="pic">S</div><div class="name">Sara<div class="xp">98,760 XP</div></div></div>
+              <div class="contrib"><div class="pic">R</div><div class="name">Reza<div class="xp">87,400 XP</div></div></div>
+            </div>
+
+          </section>
+        </main>
+
+        <footer class="stats-strip">
+          <div class="stat">Skills Mastered<br/><span class="num">24</span></div>
+          <div class="stat">XP Earned<br/><span class="num">12,450</span></div>
+          <div class="stat">Study Streak<br/><span class="num">15 days</span></div>
+          <div class="stat">Certificates<br/><span class="num">8</span></div>
+          <div class="stat">Projects Completed<br/><span class="num">12</span></div>
+          <div class="stat">Global Rank<br/><span class="num">Top 2%</span></div>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      // small interaction: toggle active nav on click
+      document.querySelectorAll('.nav-item').forEach(i=>i.addEventListener('click',()=>{document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('active')); i.classList.add('active')}));
+      document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active')); c.classList.add('active')}));
+    </script>
+  </body>
+</html>

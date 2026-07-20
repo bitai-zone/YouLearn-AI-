@@ -1,4 +1,4 @@
-here"use client";
+"use client";
 
 import {
   Home,
@@ -65,4 +65,4 @@ export default function Sidebar() {
       </button>
     </aside>
   );
-   }
+}

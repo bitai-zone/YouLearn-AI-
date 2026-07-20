@@ -1,10 +1,10 @@
-import Header from "./components/Header";
-import Sidebar from "./components/components/Sidebar";
-import ChannelBanner from "./components/components/components/ChannelBanner";
-import LearnColumn from "./components/components/components/components/LearnColumn";
-import ThinkColumn from "./components/components/components/components/components/ThinkColumn";
-import BuildColumn from "./components/components/components/components/components/BuildColumn";
-import StatsBar from "./components/components/components/components/components/components/StatsBar";
+import Header from "@/components/Header";
+import Sidebar from "@/components/Sidebar";
+import ChannelBanner from "@/components/ChannelBanner";
+import LearnColumn from "@/components/LearnColumn";
+import ThinkColumn from "@/components/ThinkColumn";
+import BuildColumn from "@/components/BuildColumn";
+import StatsBar from "@/components/StatsBar";
 
 export default function Home() {
   return (

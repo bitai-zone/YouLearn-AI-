@@ -1,10 +1,13 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  // Produce a fully static export suitable for GitHub Pages
-  output: 'export',
-  // optional: ensures directories end with a trailing slash which works well on Pages
-  trailingSlash: true,
-};
+const path = require('path');
 
-module.exports = nextConfig;
+/** @type {import('next').NextConfig} */
+module.exports = {
+  webpack: (config) => {
+    // Map '@' to the app/app directory so imports like '@/components/...' work
+    config.resolve.alias['@'] = path.resolve(__dirname, 'app', 'app');
+    return config;
+  },
+  experimental: {
+    appDir: true,
+  },
+};

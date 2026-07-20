@@ -1,5 +1,7 @@
+"use client";
+
 import Header from "@/components/Header";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/components/Sidebar";
 import ChannelBanner from "@/components/ChannelBanner";
 import LearnColumn from "@/components/LearnColumn";
 import ThinkColumn from "@/components/ThinkColumn";

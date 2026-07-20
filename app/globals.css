@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #0a0a0f;
-  color: #f1f1f4;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+:root{
+  --bg:#07080b;
+  --surface:#0f1116;
+  --muted:#94a3b8;
 }
+
+body{background:var(--bg);color:#eef2ff}
+
+/* small helper classes for legacy CSS used in components */
+.bg-surface{background:var(--surface)}
+.text-muted{color:var(--muted)}
+.border-border{border-color:rgba(255,255,255,0.03)}
